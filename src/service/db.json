@@ -1,30 +1,6 @@
 {
   "projects": [
     {
-      "id": "cd74",
-      "name": "Projeto mega",
-      "budget": "40000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 3200,
-      "services": [
-        {
-          "name": "serviço extra 1",
-          "cost": "800",
-          "description": "teste de serviço extra",
-          "id": "d8af5863-483e-48b0-b3f7-15841c3430fb"
-        },
-        {
-          "name": "serviço extra 1",
-          "cost": "800",
-          "description": "teste de serviço extra ",
-          "id": "c79b3153-9f2b-4f07-9f86-f94681731633"
-        }
-      ]
-    },
-    {
       "id": "3d62",
       "name": "Projeto React",
       "budget": "5000",
@@ -58,24 +34,6 @@
       },
       "cost": null,
       "services": []
-    },
-    {
-      "id": "cc01",
-      "name": "automação de planilhas",
-      "budget": "850",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 300,
-      "services": [
-        {
-          "name": "contratar um dev java",
-          "cost": "300",
-          "description": "o prestador de serviço fará a automação",
-          "id": "0bead4bd-bda3-4d32-baea-4fb7c36511d9"
-        }
-      ]
     }
   ],
   "categories": [

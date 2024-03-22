@@ -5,9 +5,11 @@ import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
 
 function ProjectCard({id, name, budget, category, handleRemove}) {
 
-    const remove = (e) => {
-        e.preventDefault()
-        handleRemove(id)
+    const confirmRemove = () => {
+        const result = window.confirm("Tem certeza que deseja excluir este projeto?");
+        if (result) {
+            handleRemove(id);
+        }
     }
 
     return (
@@ -23,7 +25,7 @@ function ProjectCard({id, name, budget, category, handleRemove}) {
                 <Link to={`/project/${id}`}>
                     <BsPencil /> Editar
                 </Link>
-                <button onClick={remove} >
+                <button onClick={confirmRemove} >
                     <BsFillTrashFill />Excluir
                 </button>
             </div>
