@@ -3,7 +3,7 @@ import LinkButton from '../layouts/LinkButton'
 import Message from "../layouts/Message"
 import Container from "../layouts/Container"
 import Loading from "../layouts/Loading"
-import ProjectCard from "../project/ProjectCard"
+import ProjectCard from "../components/ProjectCard/ProjectCard"
 import { useState, useEffect } from "react"
 
 import styles from "./Projects.module.css"

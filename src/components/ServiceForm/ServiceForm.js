@@ -1,7 +1,7 @@
-import styles from '../project/ProjectForm.module.css'
+import styles from '../ProjectCard/ProjectCard.module.css'
 import { useState } from 'react'
-import Input from '../form/Input'
-import SubmitButton from '../form/SubmitButton'
+import Input from '../InputText/Input'
+import SubmitButton from '../SubmitButton/SubmitButton'
 
 
 function ServiceForm ({ handleSubmit, btnText, projectData }) {

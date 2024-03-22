@@ -5,9 +5,9 @@ import { useState, useEffect } from 'react'
 import Loading from '../layouts/Loading'
 import Container from '../layouts/Container'
 import Message from '../layouts/Message'
-import ProjectForm from '../project/ProjectForm'
-import ServiceForm from '../service/ServiceForm'
-import ServiceCard from '../service/ServiceCard'
+import ProjectForm from '../components/ProjectForm/ProjectForm'
+import ServiceForm from '../components/ServiceForm/ServiceForm'
+import ServiceCard from '../components/ServiceCard/ServiceCard'
 
 function Project() {
 

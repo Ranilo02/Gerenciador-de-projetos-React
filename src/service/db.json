@@ -58,6 +58,24 @@
       },
       "cost": null,
       "services": []
+    },
+    {
+      "id": "cc01",
+      "name": "automação de planilhas",
+      "budget": "850",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 300,
+      "services": [
+        {
+          "name": "contratar um dev java",
+          "cost": "300",
+          "description": "o prestador de serviço fará a automação",
+          "id": "0bead4bd-bda3-4d32-baea-4fb7c36511d9"
+        }
+      ]
     }
   ],
   "categories": [

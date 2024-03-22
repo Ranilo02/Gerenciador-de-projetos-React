@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Company from './components/pages/Company'
-import Home from './components/pages/Home'
-import Contact from './components/pages/Contact'
-import NewProject from './components/pages/NewProject'
-import Projects from './components/pages/Projects'
-import Project from './components/pages/Project'
+import Company from './pages/Company'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+import NewProject from './pages/NewProject'
+import Projects from './pages/Projects'
+import Project from './pages/Project'
 
-import Container from './components/layouts/Container'
-import Navbar from './components/layouts/Navbar'
-import Footer from './components/layouts/Footer'
+import Container from './layouts/Container'
+import Navbar from './layouts/Navbar'
+import Footer from './layouts/Footer'
 
 function App() {
   return(
