@@ -11,7 +11,13 @@
     color: #ffbb33;
     padding: 0 0.2em;
     background-color: #222;
+
+    @media (max-width: 292px){
+        display: flex;
+        flex: 1;    
+    }
 }
+
 
 .home_container p {
     margin-bottom: 1.5em;
@@ -22,3 +28,45 @@
     width: 350px;
     margin: 2em 0;
 }
+
+
+@media (max-width: 372px){
+
+    .home_container h1 {
+        font-size: 19.5px; 
+    }
+
+    .home_container span {
+        font-size: 20.5px;
+    }
+
+    .home_container p {
+        padding-left: 1em;
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 296px){
+
+    .home_container h1 {
+        font-size: 22px; 
+    }
+
+    .home_container span {
+        font-size: 27px;
+        width: fit-content;     
+        margin-left: 25%;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .home_container p {
+        padding-left: 1em;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
