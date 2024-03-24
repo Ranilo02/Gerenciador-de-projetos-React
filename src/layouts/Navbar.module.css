@@ -1,8 +1,22 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
+    position: relative; 
     background-color: #222;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 40px;
+}
+
+.menuToggle {
+    display: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .list {
@@ -24,3 +38,31 @@
     color: #ffbb33;
 }
 
+@media screen and (max-width: 900px) {
+    .menuToggle {
+        display: block;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .showMenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background-color: #222;
+        padding: 1em;
+    }
+
+    .item {
+        margin-bottom: 0.5em;
+    }
+
+    .item:last-child {
+        margin-bottom: 0;
+    }
+}
