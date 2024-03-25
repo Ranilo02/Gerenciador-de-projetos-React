@@ -41,6 +41,8 @@
 @media screen and (max-width: 600px) {
     .menuToggle {
         display: block;
+        margin-top: 2%;
+        margin-right: 2%;
     }
 
     .list {
